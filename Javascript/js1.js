@@ -23,7 +23,6 @@ function getdata(){
         var primarychannel = data.Items[0].PrimaryChannelSlug;
         var pbday = data.Items[0].PrimaryBroadcastDay;
         var pbstime = data.Items[0].PrimaryBroadcastStartTime;
-        alert(seriesname+primarychannel)
         $("#holder1").append(seriesname+"<br>"+primarychannel+"<br>"+pbday+"<br>"+pbstime);
 
     });
